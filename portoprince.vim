@@ -24,7 +24,6 @@ hi DiffDelete ctermfg=Blue	   ctermbg=LightCyan gui=bold guifg=Blue guibg=LightC
 hi DiffText   ctermbg=Red	   cterm=bold gui=bold guibg=Red
 hi Directory  ctermfg=DarkBlue	   guifg=Blue
 hi ErrorMsg   ctermfg=Black        ctermbg=DarkRed  guibg=DarkRed   guifg=Black
-"hi Error   ctermfg=Black        ctermbg=DarkRed  guibg=DarkRed   guifg=Black
 hi FoldColumn ctermfg=DarkBlue	   ctermbg=Grey     guibg=Grey	    guifg=DarkBlue
 hi Folded     ctermbg=Grey	   ctermfg=DarkBlue guibg=LightGrey guifg=DarkBlue
 hi IncSearch  cterm=reverse	   gui=reverse
@@ -65,10 +64,10 @@ hi Type		cterm=NONE      ctermfg=42	gui=NONE	guifg=#00d787
 hi PreProc	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 hi Special	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 
-"'for' in Grey58 
-hi Repeat	cterm=bold 	ctermfg=246     gui=bold	guifg=#949494
-"'if' and 'switch' in Grey58 
-hi Conditional  cterm=bold 	ctermfg=246	gui=bold	guifg=#949494
+"'for' in DarkOrange3 
+hi Repeat	cterm=bold 	ctermfg=166     gui=bold	guifg=#d75f00
+"'if' and 'switch' in DarkOrange3 
+hi Conditional  cterm=bold 	ctermfg=166	gui=bold	guifg=#d75f00
 
 hi Todo		cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
 hi Label	cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
