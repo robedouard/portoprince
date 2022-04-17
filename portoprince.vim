@@ -55,8 +55,9 @@ hi Comment	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 "user values in quotes color Gold1
 hi Constant	cterm=NONE	ctermfg=220	gui=NONE	guifg=#ffdf00
 
-"identifiers & 'make' in DodgerBlue1 
-hi Identifier	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
+"identifiers & 'make' 'append'  in DodgerBlue1 
+"hi Identifier	cterm=BOLD	ctermfg=033	gui=NONE	guifg=#0087ff
+
 "package.Function floats ints strings color in SpringGreen2
 hi Type		cterm=NONE      ctermfg=42	gui=NONE	guifg=#00d787
 hi goType 	cterm=NONE      ctermfg=42	gui=NONE	guifg=#00d787
