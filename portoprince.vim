@@ -1,7 +1,6 @@
 " Vim color file
 " Maintainer: Robert Edouard ( https://github.com/robedouard )
 " About: portoprince vim colors file. golang
-" Last Change:	2022
 
 
 hi clear
