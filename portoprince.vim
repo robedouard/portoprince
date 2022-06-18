@@ -49,6 +49,10 @@ else
 endif
 
 
+hi goDiagnosticError ctermfg=Black ctermbg=DarkRed  guibg=DarkRed   guifg=Black
+hi goDiagnosticWarning ctermfg=Black ctermbg=DarkRed  guibg=DarkRed   guifg=Black
+hi YcmErrorSection ctermfg=Black ctermbg=DarkRed  guibg=DarkRed   guifg=Black
+
 "comment color is Turquoise2
 hi Comment	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 
