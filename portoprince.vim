@@ -70,9 +70,16 @@ hi PreProc	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 hi Special	cterm=NONE	ctermfg=045	gui=NONE	guifg=#00d7ff
 
 "'for' in DarkOrange3 
-hi Repeat	cterm=BOLD 	ctermfg=166     gui=BOLD	guifg=#d75f00
+"hi Repeat	cterm=BOLD 	ctermfg=166     gui=BOLD	guifg=#d75f00
 "'if' and 'switch' in DarkOrange3 
-hi Conditional  cterm=BOLD 	ctermfg=166	gui=BOLD	guifg=#d75f00
+"hi Conditional  cterm=BOLD 	ctermfg=166	gui=BOLD	guifg=#d75f00
+
+"'for' in DarkOrange3 
+hi Repeat	cterm=BOLD 	ctermfg=DarkGrey	gui=BOLD	guifg=DarkGrey
+"'if' and 'switch' in DarkOrange3 
+hi Conditional  cterm=BOLD 	ctermfg=DarkGrey	gui=BOLD	guifg=DarkGrey
+
+
 
 hi Todo		cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
 hi Label	cterm=BOLD	ctermfg=015	gui=NONE	guifg=#ffffff
@@ -93,3 +100,6 @@ hi Operator	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70000
 
 "'parenthesis' 'brackets' 'braces'
 hi MatchParen cterm=REVERSE,BOLD ctermfg=NONE ctermbg=NONE 
+
+" 'Spellcap" warning
+hi SpellCap ctermfg=Black        ctermbg=DarkRed  guibg=DarkRed   guifg=Black
