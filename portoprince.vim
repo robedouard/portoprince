@@ -99,7 +99,7 @@ hi Function	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70087
 hi Operator	cterm=BOLD	ctermfg=162	gui=NONE	guifg=#d70000
 
 "'parenthesis' 'brackets' 'braces'
-hi MatchParen cterm=REVERSE,BOLD ctermfg=NONE ctermbg=NONE 
+hi MatchParen cterm=REVERSE,BOLD ctermfg=045 ctermbg=NONE 
 
 " 'Spellcap" warning
 hi SpellCap ctermfg=Black        ctermbg=DarkRed  guibg=DarkRed   guifg=Black
